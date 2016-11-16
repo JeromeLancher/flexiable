@@ -4,4 +4,5 @@
 runflexModels <- function(Path.file, Path.flex= getwd()){
   setwd(Path.flex)
   system(paste("WinflexMIRT.exe -r",'"' ,Path.file, '"'))
+  print("Thisis always good")
 }
